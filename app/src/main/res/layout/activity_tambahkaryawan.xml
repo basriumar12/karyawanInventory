@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    >
+    <TextView
+        android:text="INPUT DATA KARYAWAN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/namak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Nama"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input  Email"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <TextView
+        android:text="Deplopment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/deplop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Depelopment"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <TextView
+        android:text="Perusahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/perusahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Perusahan"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/submit"
+        android:text="submit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

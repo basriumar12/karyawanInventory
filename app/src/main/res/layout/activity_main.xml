@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/cardview_light_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:text="Aplikasi Karyawan Inventory"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/tambah"
+            android:src="@drawable/tambahh"
+            android:text="Tambah Data"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+        <TextView
+            android:layout_below="@+id/tambah"
+            android:text="Tambah User"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <ImageButton
+
+        android:layout_below="@+id/tambah"
+        android:src="@drawable/form"
+        android:id="@+id/lihatData"
+        android:text="Lihat Data"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+        <TextView
+            android:text="Daftar User"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</LinearLayout>
+    </LinearLayout>
