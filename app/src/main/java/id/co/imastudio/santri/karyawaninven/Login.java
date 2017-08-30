@@ -15,12 +15,15 @@ public class Login extends AppCompatActivity
 {
     Button btnSignIn,btnSignUp;
     LoginDataBaseAdapter loginDataBaseAdapter;
-
+    SessionManager sesion;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //sessino manager
+        sesion = new SessionManager(getApplicationContext());
+
 
         // create a instance of SQLite Database
         loginDataBaseAdapter=new LoginDataBaseAdapter(this);
@@ -34,6 +37,7 @@ public class Login extends AppCompatActivity
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+
 
                 /// Create Intent for SignUpActivity  and Start The Activity
                 Intent intentSignUP=new Intent(getApplicationContext(),SignUPActivity.class);
@@ -69,8 +73,12 @@ public class Login extends AppCompatActivity
                 if(password.equals(storedPassword))
                 {
 
-                    Toast.makeText(Login.this, "Congrats: Login Successfull", Toast.LENGTH_LONG).show();
+                    sesion.createSession(editTextUserName.getText().toString());
+
+                    Toast.makeText(Login.this, "Congrats: Login Successfull", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent (Login.this, MainActivity.class);
+                    intent.putExtra("username", userName);
+                    intent.putExtra("pass",password);
 
                     startActivity(intent);
                     dialog.dismiss();

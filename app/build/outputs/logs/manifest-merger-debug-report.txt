@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Server\.android\build-cache\dba6bed3b9eff4d1bdf8d300e84ef691f4dc01dd\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Server\.android\build-cache\eb8210f11e0f03609711cb8d3afb958c6180814b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Server\.android\build-cache\252750396d2cb893cd86e651fb9821ae2693ebb6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Server\.android\build-cache\2160f6127a2959f9a12bfa943e90fbeb8f1563e3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Server\.android\build-cache\faacce0c1a45999b7dafbe3b6bca18b67e5e9c6b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Server\.android\build-cache\138c143995db3d024d8b129e5b61b5a7b42eb9c2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Server\.android\build-cache\d3d1ce7a944399e851c5ccb7e27b0ea6c85acb26\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Server\.android\build-cache\c94e7d132509236342d25f9c01d0ad4163508a22\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Server\.android\build-cache\aa22acd6c6407052fe2e4c65e5275f0f40f1722c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Server\.android\build-cache\c1ba46386b2dc077ec1f2d32b687a08a5b3a7433\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Server\.android\build-cache\af12111b2f92cf27d5100026e8fb6ad00ca29b67\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Server\.android\build-cache\a13d3b76e48c5284244833dd43f66a72866afedc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Server\.android\build-cache\6553742a623c2f32b3cd731a411c1e5eaf901d38\output\AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:11:9-40
+activity#id.co.imastudio.santri.karyawaninven.SplashScreen
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:theme
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:13:13-63
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:18:27-74
+activity#id.co.imastudio.santri.karyawaninven.adapter.TambahKaryawan
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:21:9-60
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:21:19-57
+activity#id.co.imastudio.santri.karyawaninven.ListData
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:22:9-46
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:22:19-43
+activity#id.co.imastudio.santri.karyawaninven.Detail
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:23:19-41
+activity#id.co.imastudio.santri.karyawaninven.MainActivity
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:24:9-50
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:24:19-47
+activity#id.co.imastudio.santri.karyawaninven.SignUPActivity
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:25:19-49
+activity#id.co.imastudio.santri.karyawaninven.Login
+ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:26:9-52
+	android:name
+		ADDED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml:26:19-40
+uses-sdk
+INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Server\.android\build-cache\dba6bed3b9eff4d1bdf8d300e84ef691f4dc01dd\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Server\.android\build-cache\eb8210f11e0f03609711cb8d3afb958c6180814b\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Server\.android\build-cache\252750396d2cb893cd86e651fb9821ae2693ebb6\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Server\.android\build-cache\2160f6127a2959f9a12bfa943e90fbeb8f1563e3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Server\.android\build-cache\faacce0c1a45999b7dafbe3b6bca18b67e5e9c6b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Server\.android\build-cache\f12004e599b401812e0a3f24732ec37b4aa86bc2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Server\.android\build-cache\138c143995db3d024d8b129e5b61b5a7b42eb9c2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Server\.android\build-cache\d3d1ce7a944399e851c5ccb7e27b0ea6c85acb26\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Server\.android\build-cache\c94e7d132509236342d25f9c01d0ad4163508a22\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Server\.android\build-cache\aa22acd6c6407052fe2e4c65e5275f0f40f1722c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Server\.android\build-cache\c1ba46386b2dc077ec1f2d32b687a08a5b3a7433\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Server\.android\build-cache\af12111b2f92cf27d5100026e8fb6ad00ca29b67\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Server\.android\build-cache\a13d3b76e48c5284244833dd43f66a72866afedc\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Server\.android\build-cache\6553742a623c2f32b3cd731a411c1e5eaf901d38\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Server\.android\build-cache\eb8210f11e0f03609711cb8d3afb958c6180814b\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+		INJECTED from E:\data\appandroid\KaryawanInven\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Server\.android\build-cache\eb8210f11e0f03609711cb8d3afb958c6180814b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Server\.android\build-cache\252750396d2cb893cd86e651fb9821ae2693ebb6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Server\.android\build-cache\2160f6127a2959f9a12bfa943e90fbeb8f1563e3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Server\.android\build-cache\faacce0c1a45999b7dafbe3b6bca18b67e5e9c6b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Server\.android\build-cache\f12004e599b401812e0a3f24732ec37b4aa86bc2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Server\.android\build-cache\138c143995db3d024d8b129e5b61b5a7b42eb9c2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Server\.android\build-cache\d3d1ce7a944399e851c5ccb7e27b0ea6c85acb26\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Server\.android\build-cache\c94e7d132509236342d25f9c01d0ad4163508a22\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Server\.android\build-cache\aa22acd6c6407052fe2e4c65e5275f0f40f1722c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Server\.android\build-cache\c1ba46386b2dc077ec1f2d32b687a08a5b3a7433\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Server\.android\build-cache\af12111b2f92cf27d5100026e8fb6ad00ca29b67\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Server\.android\build-cache\a13d3b76e48c5284244833dd43f66a72866afedc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Server\.android\build-cache\6553742a623c2f32b3cd731a411c1e5eaf901d38\output\AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Server\.android\build-cache\eb8210f11e0f03609711cb8d3afb958c6180814b\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Server\.android\build-cache\eb8210f11e0f03609711cb8d3afb958c6180814b\output\AndroidManifest.xml:26:9-47

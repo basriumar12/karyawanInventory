@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\data\\appandroid\\KaryawanInven\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Server\\.android\\build-cache\\252750396d2cb893cd86e651fb9821ae2693ebb6\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\data\\appandroid\\KaryawanInven\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Server\\.android\\build-cache\\252750396d2cb893cd86e651fb9821ae2693ebb6\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\data\\appandroid\\KaryawanInven\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Server\\.android\\build-cache\\252750396d2cb893cd86e651fb9821ae2693ebb6\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\data\\appandroid\\KaryawanInven\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Server\\.android\\build-cache\\252750396d2cb893cd86e651fb9821ae2693ebb6\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
